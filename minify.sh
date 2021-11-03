@@ -18,5 +18,6 @@ if [ ! -d "./assets/min/logo/lify" ]; then
   mkdir assets/min/logo/lify
 fi
 resize-image -i ./assets/logo/lify/reportlify-logo.png -o ./assets/min/logo/lify/reportlify-logo.min.png -h 200
+resize-image -i ./assets/logo/lify/agentlify-logo.png -o ./assets/min/logo/lify/agentlify-logo.min.png -h 200
 
 echo "minify image process completed"
