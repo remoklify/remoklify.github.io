@@ -22,4 +22,11 @@ resize-image -i ./assets/logo/lify/reportlify-logo.png -o ./assets/min/logo/lify
 resize-image -i ./assets/logo/lify/agentlify-logo.png -o ./assets/min/logo/lify/agentlify-logo.min.png -h 200
 resize-image -i ./assets/logo/lify/lify-logo.png -o ./assets/min/logo/lify/lify-logo.min.png -h 400
 
+echo "services"
+if [ ! -d "./assets/min/logo/services" ]; then
+  mkdir assets/min/logo/services
+fi
+resize-image -i ./assets/logo/services/software-consultancy.png -o ./assets/min/logo/services/software-consultancy.min.png -h 200
+
+
 echo "minify image process completed"
