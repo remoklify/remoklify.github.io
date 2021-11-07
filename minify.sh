@@ -27,6 +27,7 @@ if [ ! -d "./assets/min/logo/services" ]; then
   mkdir assets/min/logo/services
 fi
 resize-image -i ./assets/logo/services/software-consultancy.png -o ./assets/min/logo/services/software-consultancy.min.png -h 200
+resize-image -i ./assets/logo/services/software-integration.png -o ./assets/min/logo/services/software-integration.min.png -h 200
 
 
 echo "minify image process completed"
