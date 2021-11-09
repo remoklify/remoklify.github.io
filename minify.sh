@@ -29,6 +29,8 @@ fi
 resize-image -i ./assets/logo/services/software-consultancy-light.png -o ./assets/min/logo/services/software-consultancy-light.min.png -h 200
 resize-image -i ./assets/logo/services/software-consultancy-dark.png -o ./assets/min/logo/services/software-consultancy-dark.min.png -h 200
 resize-image -i ./assets/logo/services/software-integration-light.png -o ./assets/min/logo/services/software-integration-light.min.png -h 200
+resize-image -i ./assets/logo/services/software-integration-dark.png -o ./assets/min/logo/services/software-integration-dark.min.png -h 200
 resize-image -i ./assets/logo/services/quality-assurance-light.png -o ./assets/min/logo/services/quality-assurance-light.min.png -h 200
+resize-image -i ./assets/logo/services/quality-assurance-dark.png -o ./assets/min/logo/services/quality-assurance-dark.min.png -h 200
 
 echo "minify image process completed"
