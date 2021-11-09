@@ -21,6 +21,7 @@ fi
 resize-image -i ./assets/logo/lify/reportlify-logo.png -o ./assets/min/logo/lify/reportlify-logo.min.png -h 200
 resize-image -i ./assets/logo/lify/agentlify-logo.png -o ./assets/min/logo/lify/agentlify-logo.min.png -h 200
 resize-image -i ./assets/logo/lify/lify-light.png -o ./assets/min/logo/lify/lify-light.min.png -h 400
+resize-image -i ./assets/logo/lify/lify-dark.png -o ./assets/min/logo/lify/lify-dark.min.png -h 400
 
 echo "services"
 if [ ! -d "./assets/min/logo/services" ]; then
