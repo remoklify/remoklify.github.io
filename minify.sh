@@ -36,4 +36,17 @@ resize-image -i ./assets/logo/services/software-integration-dark.png -o ./assets
 resize-image -i ./assets/logo/services/quality-assurance-light.png -o ./assets/min/logo/services/quality-assurance-light.min.png -h 200
 resize-image -i ./assets/logo/services/quality-assurance-dark.png -o ./assets/min/logo/services/quality-assurance-dark.min.png -h 200
 
+
+echo "tp"
+if [ ! -d "./assets/min/tp/logo" ]; then
+  mkdir assets/min/tp/logo
+fi
+resize-image -i ./assets/tp/logo/apiKey.png -o ./assets/min/tp/logo/apiKey.png -h 200
+resize-image -i ./assets/tp/logo/basicAuth.png -o ./assets/min/tp/logo/basicAuth.png -h 200
+resize-image -i ./assets/tp/logo/graphql.png -o ./assets/min/tp/logo/graphql.png -h 200
+resize-image -i ./assets/tp/logo/oauth1.png -o ./assets/min/tp/logo/oauth1.png -h 200
+resize-image -i ./assets/tp/logo/oauth2.png -o ./assets/min/tp/logo/oauth2.png -h 200
+resize-image -i ./assets/tp/logo/rest.png -o ./assets/min/tp/logo/rest.png -h 200
+resize-image -i ./assets/tp/logo/soap.png -o ./assets/min/tp/logo/soap.png -h 200
+
 echo "minify image process completed"
