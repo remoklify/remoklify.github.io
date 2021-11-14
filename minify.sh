@@ -56,7 +56,7 @@ if [ ! -d "./assets/min/common" ]; then
   mkdir assets/min/common
 fi
 resize-image -i ./assets/common/business-woman1.jpg -o ./assets/min/common/business-woman1.jpg -h 200
-resize-image -i ./assets/common/business-woman2.jpg -o ./assets/min/common/business-woman1.jpg -h 200
+resize-image -i ./assets/common/business-woman2.jpg -o ./assets/min/common/business-woman2.jpg -h 200
 resize-image -i ./assets/common/business-man1.jpg -o ./assets/min/common/business-man1.jpg -h 200
 
 echo "minify image process completed"
