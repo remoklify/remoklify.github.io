@@ -50,4 +50,13 @@ resize-image -i ./assets/tp/logo/oauth2.png -o ./assets/min/tp/logo/oauth2.png -
 resize-image -i ./assets/tp/logo/rest.png -o ./assets/min/tp/logo/rest.png -h 200
 resize-image -i ./assets/tp/logo/soap.png -o ./assets/min/tp/logo/soap.png -h 200
 
+
+echo "common"
+if [ ! -d "./assets/min/common" ]; then
+  mkdir assets/min/common
+fi
+resize-image -i ./assets/common/business-woman1.jpg -o ./assets/min/common/business-woman1.jpg -h 200
+resize-image -i ./assets/common/business-woman2.jpg -o ./assets/min/common/business-woman1.jpg -h 200
+resize-image -i ./assets/common/business-man1.jpg -o ./assets/min/common/business-man1.jpg -h 200
+
 echo "minify image process completed"
