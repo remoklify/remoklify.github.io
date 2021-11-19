@@ -17,8 +17,10 @@ echo "lify"
 if [ ! -d "./assets/min/logo/lify" ]; then
   mkdir assets/min/logo/lify
 fi
-resize-image -i ./assets/logo/lify/reportlify-logo.png -o ./assets/min/logo/lify/reportlify-logo.min.png -h 200
-resize-image -i ./assets/logo/lify/agentlify-logo.png -o ./assets/min/logo/lify/agentlify-logo.min.png -h 200
+resize-image -i ./assets/logo/lify/reportlify-light.png -o ./assets/min/logo/lify/reportlify-light.min.png -h 200
+resize-image -i ./assets/logo/lify/reportlify-dark.png -o ./assets/min/logo/lify/reportlify-dark.min.png -h 200
+resize-image -i ./assets/logo/lify/agentlify-light.png -o ./assets/min/logo/lify/agentlify-light.min.png -h 200
+resize-image -i ./assets/logo/lify/agentlify-dark.png -o ./assets/min/logo/lify/agentlify-dark.min.png -h 200
 resize-image -i ./assets/logo/lify/lify-light.png -o ./assets/min/logo/lify/lify-light.min.png -h 400
 resize-image -i ./assets/logo/lify/lify-dark.png -o ./assets/min/logo/lify/lify-dark.min.png -h 400
 
