@@ -12,6 +12,8 @@ if [ ! -d "./assets/min/logo" ]; then
   mkdir assets/min/logo
 fi
 resize-image -i ./assets/logo/brand-logo.png -o ./assets/min/logo/brand-logo.min.png -h 200
+resize-image -i ./assets/logo/brand-logo-secondary.png -o ./assets/min/logo/brand-logo-secondary.min.png -h 200
+resize-image -i ./assets/logo/brand-logo-tertiary.png -o ./assets/min/logo/brand-logo-tertiary.min.png -h 200
 
 echo "lify"
 if [ ! -d "./assets/min/logo/lify" ]; then
