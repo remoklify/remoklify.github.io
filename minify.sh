@@ -26,6 +26,12 @@ resize-image -i ./assets/logo/lify/agentlify-dark.png -o ./assets/min/logo/lify/
 resize-image -i ./assets/logo/lify/lify-light.png -o ./assets/min/logo/lify/lify-light.min.png -h 400
 resize-image -i ./assets/logo/lify/lify-dark.png -o ./assets/min/logo/lify/lify-dark.min.png -h 400
 
+echo "lift"
+if [ ! -d "./assets/min/logo/lift" ]; then
+  mkdir assets/min/logo/lift
+fi
+resize-image -i ./assets/logo/lift/gitlift.png -o ./assets/min/logo/lift/gitlift.min.png -h 200
+
 echo "services"
 if [ ! -d "./assets/min/logo/services" ]; then
   mkdir assets/min/logo/services
