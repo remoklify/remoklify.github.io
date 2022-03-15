@@ -31,6 +31,8 @@ if [ ! -d "./assets/min/logo/lift" ]; then
   mkdir assets/min/logo/lift
 fi
 resize-image -i ./assets/logo/lift/gitlift.png -o ./assets/min/logo/lift/gitlift.min.png -h 200
+resize-image -i ./assets/logo/lift/gitlift.png -o ./assets/min/logo/lift/gitlift-light.min.png -h 200
+resize-image -i ./assets/logo/lift/gitlift.png -o ./assets/min/logo/lift/gitlift-dark.min.png -h 200
 
 echo "services"
 if [ ! -d "./assets/min/logo/services" ]; then
