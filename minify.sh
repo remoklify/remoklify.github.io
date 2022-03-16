@@ -60,6 +60,7 @@ resize-image -i ./assets/tp/logo/oauth1.png -o ./assets/min/tp/logo/oauth1.png -
 resize-image -i ./assets/tp/logo/oauth2.png -o ./assets/min/tp/logo/oauth2.png -h 200
 resize-image -i ./assets/tp/logo/rest.png -o ./assets/min/tp/logo/rest.png -h 200
 resize-image -i ./assets/tp/logo/soap.png -o ./assets/min/tp/logo/soap.png -h 200
+resize-image -i ./assets/tp/logo/github.png -o ./assets/min/tp/logo/github.png -h 200
 
 
 echo "common"
