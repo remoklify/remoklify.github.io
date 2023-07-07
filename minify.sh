@@ -55,6 +55,7 @@ if [ ! -d "./assets/min/tp/logo" ]; then
   mkdir assets/min/tp/logo
 fi
 resize-image -i ./assets/tp/logo/apiKey.png -o ./assets/min/tp/logo/apiKey.png -h 200
+resize-image -i ./assets/tp/logo/openai.png -o ./assets/min/tp/logo/openai.png -h 200
 resize-image -i ./assets/tp/logo/basicAuth.png -o ./assets/min/tp/logo/basicAuth.png -h 200
 resize-image -i ./assets/tp/logo/graphql.png -o ./assets/min/tp/logo/graphql.png -h 200
 resize-image -i ./assets/tp/logo/oauth1.png -o ./assets/min/tp/logo/oauth1.png -h 200
