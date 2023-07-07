@@ -12,7 +12,7 @@ if [ ! -d "./assets/min/logo" ]; then
   mkdir assets/min/logo
 fi
 resize-image -i ./assets/logo/brand-logo.png -o ./assets/min/logo/brand-logo.min.png -h 200
-resize-image -i ./assets/logo/piagi.png -o ./assets/min/logo/piagi.min.png -h 200
+resize-image -i ./assets/logo/piagit.png -o ./assets/min/logo/piagit.min.png -h 200
 resize-image -i ./assets/logo/developed-by.png -o ./assets/min/logo/developed-by.min.png -h 200
 resize-image -i ./assets/logo/powered-by.png -o ./assets/min/logo/powered-by.min.png -h 200
 
